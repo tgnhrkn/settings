@@ -1,0 +1,30 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "toggleexcludedfiles.statusBar.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "wrapSelection.patterns": {
+    "ts": "t({defaultMessage:${text}})",
+    "prop": "{t({defaultMessage:${text}})}",
+    "html": "{t({defaultMessage:\"${text}\"})}",
+    "it": "it(${text}, () => {})",
+    "ita": "it(${text}, async () => {})"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "window.confirmSaveUntitledWorkspace": false
+}
